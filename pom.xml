@@ -31,10 +31,6 @@
         <restate.version>2.5.0</restate.version>
 	</properties>
 	<dependencies>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
         <dependency>
             <groupId>dev.restate</groupId>
             <artifactId>sdk-spring-boot-starter</artifactId>
@@ -48,8 +44,9 @@
 		</dependency>
 		<dependency>
 			<groupId>dev.restate</groupId>
-			<artifactId>sdk-testing</artifactId>
+			<artifactId>sdk-fake-api</artifactId>
 			<version>${restate.version}</version>
+			<scope>test</scope>
 		</dependency>
 	</dependencies>
 
